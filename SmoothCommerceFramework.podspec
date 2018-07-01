@@ -17,4 +17,7 @@ Pod::Spec.new do |s|
           s.source              = { :git => "https://github.com/Sumanpreet-Singh/SmoothCommerceRepo.git", :tag => "1.0.0" }
           #9.
           s.source_files     = "SmoothCommerceFramework", "SmoothCommerceFramework/**/*.{h,m,swift}"
+	  #10.
+	  s.dependency 'Alamofire'
+	  s.dependency 'SwiftyJSON'
     end

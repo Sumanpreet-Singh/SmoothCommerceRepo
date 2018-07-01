@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 public class SmoothCommerceDebug{
     //1.
     private var isDebug: Bool!
