@@ -10,6 +10,7 @@
 		04587FE120E8969600E53A47 /* SmoothCommerceFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04587FD720E8969600E53A47 /* SmoothCommerceFramework.framework */; };
 		04587FE620E8969600E53A47 /* SmoothCommerceFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587FE520E8969600E53A47 /* SmoothCommerceFrameworkTests.swift */; };
 		04587FE820E8969600E53A47 /* SmoothCommerceFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 04587FDA20E8969600E53A47 /* SmoothCommerceFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04587FF220E896EC00E53A47 /* SmoothCommerceDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587FF120E896EC00E53A47 /* SmoothCommerceDebug.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		04587FE020E8969600E53A47 /* SmoothCommerceFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmoothCommerceFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04587FE520E8969600E53A47 /* SmoothCommerceFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothCommerceFrameworkTests.swift; sourceTree = "<group>"; };
 		04587FE720E8969600E53A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04587FF120E896EC00E53A47 /* SmoothCommerceDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothCommerceDebug.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				04587FDA20E8969600E53A47 /* SmoothCommerceFramework.h */,
 				04587FDB20E8969600E53A47 /* Info.plist */,
+				04587FF120E896EC00E53A47 /* SmoothCommerceDebug.swift */,
 			);
 			path = SmoothCommerceFramework;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					04587FD620E8969600E53A47 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					04587FDF20E8969600E53A47 = {
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04587FF220E896EC00E53A47 /* SmoothCommerceDebug.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +339,7 @@
 		04587FEC20E8969600E53A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -346,6 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.whiteLabel.SmoothCommerceFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,6 +361,7 @@
 		04587FED20E8969600E53A47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -374,6 +382,7 @@
 		04587FEF20E8969600E53A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SmoothCommerceFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -387,6 +396,7 @@
 		04587FF020E8969600E53A47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SmoothCommerceFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
