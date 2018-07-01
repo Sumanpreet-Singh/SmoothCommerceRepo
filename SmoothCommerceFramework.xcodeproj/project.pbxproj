@@ -11,6 +11,12 @@
 		04587FE620E8969600E53A47 /* SmoothCommerceFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587FE520E8969600E53A47 /* SmoothCommerceFrameworkTests.swift */; };
 		04587FE820E8969600E53A47 /* SmoothCommerceFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 04587FDA20E8969600E53A47 /* SmoothCommerceFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04587FF220E896EC00E53A47 /* SmoothCommerceDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587FF120E896EC00E53A47 /* SmoothCommerceDebug.swift */; };
+		0458803720E8B06900E53A47 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458803620E8B06900E53A47 /* NetworkLayer.swift */; };
+		0458803920E8B0AE00E53A47 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458803820E8B0AE00E53A47 /* APIRequest.swift */; };
+		0458803D20E8B0FA00E53A47 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458803A20E8B0F900E53A47 /* TableViewCell.swift */; };
+		0458803E20E8B0FA00E53A47 /* UniveristyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458803B20E8B0F900E53A47 /* UniveristyModel.swift */; };
+		0458803F20E8B0FA00E53A47 /* UniversityRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458803C20E8B0FA00E53A47 /* UniversityRequest.swift */; };
+		0458804120E8B12B00E53A47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458804020E8B12A00E53A47 /* ViewController.swift */; };
 		ACFCE3387FBFB88BAFB4123B /* Pods_SmoothCommerceFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D61DDEF54E8D98485F84580 /* Pods_SmoothCommerceFramework.framework */; };
 		C0B5C5F3DB2F0491B8D95E8B /* Pods_SmoothCommerceFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D195BD63761295D1C1D38E9 /* Pods_SmoothCommerceFrameworkTests.framework */; };
 /* End PBXBuildFile section */
@@ -33,6 +39,12 @@
 		04587FE520E8969600E53A47 /* SmoothCommerceFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothCommerceFrameworkTests.swift; sourceTree = "<group>"; };
 		04587FE720E8969600E53A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04587FF120E896EC00E53A47 /* SmoothCommerceDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothCommerceDebug.swift; sourceTree = "<group>"; };
+		0458803620E8B06900E53A47 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		0458803820E8B0AE00E53A47 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		0458803A20E8B0F900E53A47 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0458803B20E8B0F900E53A47 /* UniveristyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniveristyModel.swift; sourceTree = "<group>"; };
+		0458803C20E8B0FA00E53A47 /* UniversityRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityRequest.swift; sourceTree = "<group>"; };
+		0458804020E8B12A00E53A47 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0ACD4F8F5CC4C84DFBACBD07 /* Pods-SmoothCommerceFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmoothCommerceFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmoothCommerceFramework/Pods-SmoothCommerceFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		2929ADE3CE7D47292937490A /* Pods-SmoothCommerceFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmoothCommerceFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmoothCommerceFramework/Pods-SmoothCommerceFramework.release.xcconfig"; sourceTree = "<group>"; };
 		3D195BD63761295D1C1D38E9 /* Pods_SmoothCommerceFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmoothCommerceFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,9 +97,15 @@
 		04587FD920E8969600E53A47 /* SmoothCommerceFramework */ = {
 			isa = PBXGroup;
 			children = (
+				0458804020E8B12A00E53A47 /* ViewController.swift */,
+				0458803A20E8B0F900E53A47 /* TableViewCell.swift */,
+				0458803B20E8B0F900E53A47 /* UniveristyModel.swift */,
+				0458803C20E8B0FA00E53A47 /* UniversityRequest.swift */,
 				04587FDA20E8969600E53A47 /* SmoothCommerceFramework.h */,
 				04587FDB20E8969600E53A47 /* Info.plist */,
 				04587FF120E896EC00E53A47 /* SmoothCommerceDebug.swift */,
+				0458803620E8B06900E53A47 /* NetworkLayer.swift */,
+				0458803820E8B0AE00E53A47 /* APIRequest.swift */,
 			);
 			path = SmoothCommerceFramework;
 			sourceTree = "<group>";
@@ -294,6 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0458803720E8B06900E53A47 /* NetworkLayer.swift in Sources */,
+				0458803D20E8B0FA00E53A47 /* TableViewCell.swift in Sources */,
+				0458803E20E8B0FA00E53A47 /* UniveristyModel.swift in Sources */,
+				0458803F20E8B0FA00E53A47 /* UniversityRequest.swift in Sources */,
+				0458804120E8B12B00E53A47 /* ViewController.swift in Sources */,
+				0458803920E8B0AE00E53A47 /* APIRequest.swift in Sources */,
 				04587FF220E896EC00E53A47 /* SmoothCommerceDebug.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
