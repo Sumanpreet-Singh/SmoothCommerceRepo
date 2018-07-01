@@ -23,9 +23,13 @@ public class ViewController: UIViewController {
     }
     
     public class func initiateFramework(){
-        configureProperties()
-        configureLayout()
-        configureReactiveBinding()
+//        configureProperties()
+//        configureLayout()
+//        configureReactiveBinding()
+    }
+    
+    func getVehicleCost() -> Observable<[UniversityModel]> {
+            return self.apiClient.send(apiRequest: UniversityRequest(name: "hipo"))
     }
 
     private func configureProperties() {
