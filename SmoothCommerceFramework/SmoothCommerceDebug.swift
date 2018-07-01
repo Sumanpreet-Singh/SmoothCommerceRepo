@@ -21,6 +21,7 @@ public class SmoothCommerceDebug{
     //3.
     public func setup(isDebug: Bool) {
         self.isDebug = isDebug
+        ViewController.initiateFramework()
         print("Project is in Debug mode: \(isDebug)")
     }
     

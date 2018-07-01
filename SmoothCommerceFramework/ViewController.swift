@@ -22,7 +22,7 @@ public class ViewController: UIViewController {
 //        configureReactiveBinding()
     }
     
-    public func initiateFramework(){
+    public class func initiateFramework(){
         configureProperties()
         configureLayout()
         configureReactiveBinding()
