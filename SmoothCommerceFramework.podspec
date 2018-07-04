@@ -20,4 +20,6 @@ Pod::Spec.new do |s|
 	  #10.
 	  s.dependency 'Alamofire'
 	  s.dependency 'SwiftyJSON'
+	  s.dependency 'RxSwift'
+	  s.dependency 'RxCocoa'
     end
