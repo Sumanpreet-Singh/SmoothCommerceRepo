@@ -26,6 +26,9 @@ public class ViewController: UIViewController {
 //        configureProperties()
 //        configureLayout()
 //        configureReactiveBinding()
+        
+        let theStockHolding = ViewController()
+        _ = theStockHolding.getVehicleCost()
     }
     
     func getVehicleCost() -> Observable<[UniversityModel]> {
